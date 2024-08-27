@@ -172,6 +172,7 @@ nav {
   color: var(--primary-color);
   border: 2px dashed var(--primary-color);
   text-align: center;
+  border-radius: 1rem;
 }
 
 .header__content h1 {
