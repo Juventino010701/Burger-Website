@@ -48,15 +48,22 @@
   background-color: var(--tertiary-color);
   transition: 0.3s;
   cursor: pointer;
+  border-radius: 1rem;
 }
 
 .btn:hover {
   background-color: var(--primary-color);
+  transform: translateY(2px);
+}
+
+.btn:active {
+    transform: translateY(4px);
 }
 
 img {
   display: flex;
   width: 100%;
+  border-radius: 1rem;
 }
 
 a {
@@ -230,6 +237,7 @@ nav {
   font-family: var(--header-font-2);
   color: var(--primary-color);
   background-color: var(--secondary-color);
+  border-radius: 1rem;
 }
 
 .order__container .section__header {
@@ -283,6 +291,7 @@ nav {
   gap: 2rem;
   padding: 1rem;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
 }
 
 .event__details {
@@ -327,6 +336,7 @@ nav {
   border: 1px solid var(--text-dark);
   font-size: 1rem;
   color: var(--text-dark);
+  border-radius: 1rem;
 }
 
 .reservation__container input::placeholder {
@@ -548,3 +558,12 @@ nav {
     gap: 2rem;
   }
 }
+
+* {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+  }
